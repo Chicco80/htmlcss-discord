@@ -109,31 +109,46 @@ nav li a{
     padding-bottom: 30px;
 }
 /* section 2 */
+.col-sx{
+    width: 50%;
+    height: 50vh;
 
-.container img{
-    width: 40%;
     float: left;
-    margin-top: 100px;
-    margin-left: 200px;
 }
-.container .description{
+.col-dx{
     width: 20%;
-    float: right;
-    padding-top: 140px;
-    padding-right: 100px;
-    margin-right: 300px;
+    float: left;
+   
+    margin-top:50px;
+    padding: 0 15px;
+    margin-left: 40px;
+}
+#central{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.col-sx img{
+    width: 100%;
+}
+.col-dx h2{
+    font-size: 40px;
+    text-align: left;
+}
+.col-dx p{
+    font-size: 30px;
+    text-align: left;
+}
+
     
-}
-.description h2{
-    font-size: 35px;
-}
-.description p{
-    font-size: 25px;
-}
-.wave svg{
+.wave-down svg{
     color: #F6F6F6;
     display:block;
     transform: rotate(180deg);
+}
+.wave{
+    color: #F6F6F6;
+    display:block;
 }
 
 
@@ -148,7 +163,7 @@ footer{
     height: 100vh;
     border: 2px solid red;
     display: inline-block;
-    margin :0;
+    
 }
 
  .col-1{
@@ -156,9 +171,9 @@ footer{
     height: 100vh;
     border: 2px solid red;
     display: inline-block;
-    margin: 0;
+    
 }
 .col ul li{
-    text-decoration: none;
     
+
 }
